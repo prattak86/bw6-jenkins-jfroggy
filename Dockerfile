@@ -51,8 +51,5 @@ RUN unzip /tibco_bw6/plugins/TIB_BW_Maven_Plugin_2.4.0.zip -d /tibco_bw6/plugins
 RUN chmod 755 /tibco_bw6/plugins/install.sh
 #RUN sh /tibco_bw6/plugins/install.sh $TIBCO_HOME
 
-# Copy oge-bw-include.xml to /include directory
-#RUN mkdir /include
-#ADD oge-bw-include.xml /include
 
 USER cloudbees-jenkins-distribution
